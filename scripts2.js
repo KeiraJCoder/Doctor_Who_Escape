@@ -1,15 +1,15 @@
 
-// document.addEventListener('contextmenu', function(e) {
-//     e.preventDefault();
-//   });
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
 
-//   var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+  var isNS = (navigator.appName == "Netscape") ? 1 : 0;
 
-// if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
 
-// function mischandler(){
-// return false;
-// }
+function mischandler(){
+return false;
+}
 
 
 
