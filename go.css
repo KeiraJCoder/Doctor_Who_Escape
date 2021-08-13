@@ -1,0 +1,12 @@
+body {
+    background-image: url("tardidback.jpeg");
+    background-size: 100%;
+    background-color: #cccccc;
+   }
+
+   img {
+       position:relative;
+       text-align: center;
+       margin-top:18%;
+       margin-left: 30%;
+   }

@@ -1,0 +1,88 @@
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+} 
+
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity:0;
+        transform:rotateX(-10deg);
+    }
+    to {
+        opacity:1;
+        transform: rotateX(-10deg);
+    }
+}
+
+body {
+    display: flexbox;
+    background-image: url("gallifrey.jpg");
+    background-repeat: no-repeat;
+    background-position:top center;
+
+  }
+
+.hide {
+display: none;
+}
+
+.myDIV:hover + .hide {
+    display: block;
+    text-align: center;
+    position:fixed;
+    margin-top: 40% ;
+    padding-left: 30%;
+    color: rgb(103, 29, 146);
+    }
+
+
+ h2 {
+    font-family: arial,verdana,sans-serif;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 30px flex;
+    color: rgb(255, 255, 255);
+    height: 50px flex;  
+    width: 900px flex;  
+    opacity: 100%;
+ } 
+
+ h4 {
+    font-family: arial,verdana,sans-serif;
+    text-align: center;
+    font-size: 10px flex;
+    color: rgb(255, 255, 255);
+    height: 50px flex;  
+    width: 900px flex;  
+    opacity: 100%;
+ }
+ 
+
+  .container {
+      display: flex;
+  }
+   
+form {
+    display: block;
+    margin-top: 22% ;
+    text-align: center;
+    opacity: 70%;
+    color: aliceblue;
+}

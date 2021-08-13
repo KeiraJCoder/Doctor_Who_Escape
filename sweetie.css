@@ -1,0 +1,21 @@
+
+p {
+    color: black;
+    display: block;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+a{
+    position: relative;
+    top: -358px;
+    left: 185px;
+    cursor: default;
+}
+
+body {
+    background-image: url("badwolf.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+  }

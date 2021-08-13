@@ -1,0 +1,51 @@
+body {
+    /* background-color: #ffffff; */
+    background-image: url("https://64.media.tumblr.com/cd6701679630e392043f38d67f4f0b28/tumblr_mn0mxhYev51qcqy8bo1_1280.jpg");
+    background-repeat:no-repeat;
+    background-position: flex;
+    background-color: black;
+    background-size: 100%;
+}
+
+p {
+    position: flex;
+    color: rgb(3, 1, 1);
+    font-size: 0.5vw auto;
+    margin-left: 65%;
+    margin-top: 3%;
+    opacity: 50%;
+    display: block;
+    text-align: center;
+
+ }
+ form {
+    display: block;
+    margin-top: 30% ;
+    text-align: center;
+    opacity: 70%;
+    color: aliceblue;
+}
+
+a {
+    display: fixed;
+    margin-left: 50%;
+    margin-top: 600%;
+    opacity: 0.5;
+    display: hidden;  
+
+}
+
+.hide {
+     display: none;
+     margin-left:5%;
+        
+}
+        
+.myDIV:hover + .hide {
+        display:block; 
+        text-align: center;
+        position: fixed;
+        margin-left:50%;
+
+
+}    
