@@ -10,7 +10,7 @@ if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Even
 function mischandler(){
 return false;
 }
-
+//prevent right click
 function mousehandler(e){
   var myevent = (isNS) ? e : event;
   var eventbutton = (isNS) ? myevent.which : myevent.button;
@@ -38,7 +38,7 @@ function mousehandler(e){
   }
   }
 
-//add 
+//add password and variations
 function password(){
   var pass = document.getElementById("pass").value;
 
