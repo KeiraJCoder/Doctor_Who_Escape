@@ -103,8 +103,8 @@ function compareCards(){
   if(playerLife <= 0) {
     gameOver("Monster");
 
-    alert("You lose")
-    window.location = '/Users/Keira/Documents/Lessons/Portfolio/index.html';
+    alert("You are not worthy of finding The Doctor")
+    window.location = 'index.html';
   } else if (monsterLife <= 0){
     gameOver("Player")
   }
