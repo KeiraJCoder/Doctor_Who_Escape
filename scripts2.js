@@ -43,13 +43,13 @@ function password(){
   var pass = document.getElementById("pass").value;
 
 if(pass == "TRENZALORE"){
-            window.location.href="next.html"
+            window.location.href="/Users/Keira/Documents/Lessons/Portfolio/Top Trumps/top.html"
 } else if  
   (pass === "Trenzalore"){
-    window.location.href="next.html"
+    window.location.href="/Users/Keira/Documents/Lessons/Portfolio/Top Trumps/top.html"
 } else if  
 (pass === "trenzalore"){
-  window.location.href="next.html"
+  window.location.href="/Users/Keira/Documents/Lessons/Portfolio/Top Trumps/top.html"
    }else{
     alert("Incorrect. Try again");
     }
