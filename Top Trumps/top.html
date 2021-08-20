@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+  <script type="text/javascript">
+    function disableBack() { window.history.forward(); }
+    setTimeout("disableBack()", 0);
+    window.onunload = function () { null };
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>What Would the Doctor Do?</title>
@@ -27,7 +32,7 @@
         </div>
         <div class="life-total"></div>
 
-        
+
         <!-- Change the name and emoji here -->
         <div class="thumbnail"><a href="https://emoji.gg/emoji/Dalek"><img src="https://emoji.gg/assets/emoji/Dalek.png"
               width="64px" height="64px" alt="Dalek"></a></div>
