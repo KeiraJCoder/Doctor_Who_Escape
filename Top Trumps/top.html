@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Would the Doctor Do?</title>
+  <link rel="icon" type="image/png" sizes="128x128" href="images/favicon.png">
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="customize.css" type="text/css">
+  <script src="cards.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="game-board">
+
+    <div class="monster-area">
+
+      <h1>
+        <strong>Doctor Who Top Trumps</strong> <br /> Choose what The Doctor would do to defeat the monsters
+      </h1>
+
+      <div class="stats monster-stats">
+        <div class="life-bar">
+          <div class="life-left monster-color"></div>
+        </div>
+        <div class="life-total"></div>
+
+        
+        <!-- Change the name and emoji here -->
+        <div class="thumbnail"><a href="https://emoji.gg/emoji/Dalek"><img src="https://emoji.gg/assets/emoji/Dalek.png"
+              width="64px" height="64px" alt="Dalek"></a></div>
+        <div class="name">Monster</div>
+      </div>
+
+      <div class="card monster-card monster-color">
+        <div class="text"></div>
+        <div class="power"></div>
+      </div>
+
+    </div>
+
+    <div class="player-area">
+
+      <div class="stats player-stats">
+        <div class="life-bar">
+          <div class="life-left player-color"></div>
+        </div>
+        <div class="life-total"></div>
+        <!-- Change the name and emoji here -->
+        <div class="thumbnail"><a href="https://emoji.gg/emoji/6384_Tardis"><img
+              src="https://emoji.gg/assets/emoji/6384_Tardis.png" width="64px" height="64px" alt="Tardis"></a></div>
+        <div class="name">The Doctor</div>
+      </div>
+
+      <div class="card player-card player-color">
+        <div class="text"></div>
+        <div class="power"></div>
+      </div>
+
+      <div class="card player-card player-color">
+        <div class="text"></div>
+        <div class="power"></div>
+      </div>
+
+      <div class="card player-card player-color">
+        <div class="text"></div>
+        <div class="power"></div>
+      </div>
+
+      <button class="start-game" onClick="startGame()">Play the Game!</button>
+      <button class="next-turn" onClick="playTurn()">Next!</button>
+      </div>
+    </div>
+  </div>
+
+
+<div class="winner-section">
+    <div>
+      <span class="winner-message">You defeated the monsters!</span>
+      <button class="Continue" onClick="location.href = '/Users/Keira/Documents/Lessons/Portfolio/sweetie.html';">
+        Continue</button>
+    </div>
+  </div>
+
+<div class="game-board2">
+  <div class="loser-section">
+    <div>
+      <span class="loser-message">You were defeated</span>
+      <button class="Retry" onClick="location.href = '/Users/Keira/Documents/Lessons/Portfolio/index.html';">
+        Retry</button>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js" type="text/javascript"></script>
+
+</body>
+
+</html>

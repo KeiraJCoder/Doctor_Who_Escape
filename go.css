@@ -7,6 +7,13 @@ body {
    img {
        position:relative;
        text-align: center;
-       margin-top:18%;
-       margin-left: 30%;
+       margin-top:2%;
+       margin-left: 10%;
    }
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    margin-top:5%;
+    font-size: 80px;
+}

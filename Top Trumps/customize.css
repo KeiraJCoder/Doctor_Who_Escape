@@ -1,0 +1,38 @@
+/* Change the colors in this stylesheet to customize the game. */ 
+
+/* Player Styles */
+
+.player-color {
+  background-color: #064486;
+}
+
+.player-area {
+  background-color: #0d3158;
+  background-image: url(images/doctors.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  position: flex;
+}
+
+.player-card .power {
+  background-image: url(images/tardis.svg);
+}
+
+/* monster Styles */
+
+.monster-color {
+  background-color: #0fb300;
+}
+
+.monster-area {
+  background-color: #6ad69b;
+  background-image: url(images/monsters.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  position: flex;
+  justify-self: auto;
+}
+
+.monster-card .power {
+  background-image: url(images/dalek.svg);
+}
